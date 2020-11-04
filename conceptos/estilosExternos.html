@@ -33,7 +33,7 @@
             </a>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link active" href="/index.html">Inicio </a>
+                    <a class="nav-link active" href="/index.html">Inicio</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
@@ -41,7 +41,7 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/conceptos/estilosInternos.html">Estilos internos</a>
                         <a class="dropdown-item" href="/conceptos/estilosExternos.html">Estilos externos</a>
-                        <a class="dropdown-item" href="#">Selectores</a>
+                        <a class="dropdown-item" href="/conceptos/selectores.html">Selectores</a>
 
                     </div>
                 </li>
@@ -61,27 +61,47 @@
                 </li>
             </ul>
         </div>
-        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" width="300" alt="CSS3">
-        <h1>CSS3: Estilos internos y Externos, Selectores CSS.</h1>
-        <nav>
-            <li><a href="#EstilosInternos">Estilos Internos</a></li>
-            <li><a href="#EstilosExternos">Estilos Externos</a></a></li>
-            <li><a href="#selectores">Selectores</a></a></li>
-            <li><a href="#frame">Frame</a></a></li>
-
-        </nav>
     </header>
     <main>
+        <section id="EstilosExternos">
+            <div class="container">
+                <h3>Estilos Externos</h3>
+                <p>Aunque el CSS interno nos permite unificar en una declaración todos los estilos para un archivo html,
+                    seguimos teniendo el problema de tener que repetir la definición de estilos en la cabecera de cada
+                    uno
+                    de los archivos html de nuestro desarrollo web. Si el desarrollo tiene pocos archivos quizás sea
+                    menos
+                    problemático, pero cuando el desarrollo tiene cientos o miles de archivos sí se convierte en un
+                    verdadero problema, ya que cada vez que introdujéramos cambios habría que hacerlo en los cientos o
+                    miles
+                    de archivos de que constara el desarrollo.</p>
+                <textarea cols='100' rows='15'>
 
 
+            <!DOCTYPE html>
+            <!-- Código ejemplo para el curso CSS -->
+            <html>
+            <head>
+            <title>Portal web - aprenderaprogramar.com</title>
+            <meta charset="utf-8">
+            <meta name="description" content="Portal web aprenderaprogramar.com">
+            <meta name="keywords" content="aprender, programar, cursos, libros">
+            <link rel="stylesheet" type="text/css" href="estilos.css">
+            </head>
+            <!-- Aquí el resto del código del ejemplo -->
+            </html>
+        </textarea>
+            </div>
 
-        <section id="frame">
-            <h3>Frame</h3>
-            <img src="./frame.png" alt="frame">
         </section>
+
     </main>
-    <footer>
-        Creado por Miguelangel Rendon <span>(©)</span>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">Creado por <a target="_black" href="https://twitter.com/silvermiguel96">Miguelangel
+                    Rendon ©</a>
+            </span>
+        </div>
     </footer>
 </body>
 
